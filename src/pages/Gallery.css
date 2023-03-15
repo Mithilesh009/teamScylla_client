@@ -1,0 +1,74 @@
+.img-row{
+    position: relative;
+    margin-top: -30%;
+    filter: blur(5px);
+}
+.ab-row{
+    position: absolute;
+    margin-top: -25%;
+}
+
+.gal-row{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.foot-row{
+  background-color: rgb(34, 33, 25) ;
+}
+
+
+.bor .f-col img{
+    border: 3px solid rgb(211, 153, 7);
+    transition: transform .3s;
+}
+.bor .f-col img:hover{
+    box-shadow: -3px 4px 27px 3px rgba(245, 245, 245, 0.198);
+    transform: scale(1.05); 
+  }
+
+  footer ul li h6:hover{
+    color: rgb(34, 33, 25) ;
+    font-size: 120% ;
+    font-weight:500;
+    transition: 0.3s ease-in;
+
+  }
+  footer .col .row  .linked:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:rgb(2, 79, 110) ;
+  }
+footer .col .row  .twitter:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:rgb(3, 182, 253) ;
+  }
+  footer .col .row  .youtube:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:red ;
+  }
+  footer .col .row  .insta:hover {
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  } 
+
+
+@media only screen and (max-width:600px){
+    .bor .f-col{
+        min-width: 100%;
+        padding: 0%;
+    }
+    .img-row{
+      position: relative;
+      margin-top: -18%;
+      filter: blur(5px);
+  }
+  .ab-row{
+      position: absolute;
+      margin-top: -30%;
+  }
+  
+}
+
+  

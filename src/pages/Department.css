@@ -1,0 +1,91 @@
+.i-row{ 
+    position:relative;
+    margin-top: -15%;
+    filter: blur(5px);
+}
+.d-ab{
+    position: absolute;
+    margin-top: -30%;
+}
+.d-ab .row .col .team-heads .col , .d-ab .row .col .team-members .col{
+    padding: 3%;
+}
+.position-absolute .d-card , .scrollspy-example{
+    margin: 0%;
+}
+
+.c-row a{
+    text-decoration: none;
+}
+.position-absolute .c-row{
+    background-color:rgb(34, 33, 25) ;
+}
+.container-fluid .d-ab .row .card{
+    border: 5px solid rgb(211, 153, 7);
+    transition: transform .3s; 
+    background-color:rgb(43, 42, 35);
+    border-radius:20px;
+}
+.container-fluid .d-ab .row .card:hover{
+    transform: scale(1.05); 
+    box-shadow: 13px 15px 31px 10px rgba(50, 50, 40, 0.7);
+  }
+.position-absolute .c-row .d-card h3{
+    color: whitesmoke;
+}
+.scrollspy-example h4{
+    color:rgb(211, 153, 7);
+    font-size:3vw;
+}
+
+.scrollspy-example b{
+    color: rgb(211, 153, 7);
+    font-weight: 100;
+}
+.scrollspy-example p{
+    color: whitesmoke;
+    font-size: 1.2vw;
+}
+
+
+@media only screen and (max-width : 600px){
+    .d-ab .row .col {
+        min-width: 100%;
+        margin-top: 0%;
+    } 
+    .d-ab  .sus-img{
+        height: 250px;
+    }
+    .d-ab{
+        margin-top: -15%;
+    }
+    .scrollspy-example h4{
+        font-size:30px;
+    }
+    .scrollspy-example p{
+        font-size: 15px;
+    }
+    .scrollspy-example .m{
+        margin-top: 15% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

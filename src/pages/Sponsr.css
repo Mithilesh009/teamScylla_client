@@ -1,0 +1,51 @@
+.a-nav{
+    background-color: rgb(34, 33, 25);
+    height: 11.5vh !important;
+}
+.m-row{
+    background-color: rgb(34, 33, 25);
+}
+.m-row .f-row  h1{
+    color:rgb(211, 153, 7);
+    font-size: 2.5vw;
+    margin: 2%;
+}
+.m-row .f-row  p{
+    color:whitesmoke;
+    font-size: 1.2vw;
+}
+.f-row{
+padding: 5%;
+}
+.f-row img{
+    border: 2px solid rgb(211, 153, 7);
+}
+
+@media only screen and (max-width:600px) {
+    .a-pa .m-col .col {
+        min-width: 100%;
+    }
+    .a-pa{
+        margin-top: -20% !important;
+    }
+    .a-pa .text-center{
+        padding: 2%;
+    }
+    .a-pa .row .quote{
+        padding: -0%;
+        min-width: 100% ;
+    }
+    .a-pa .row .quote h2{
+        font-size: 20px !important ;
+    }
+    .f-row img{
+        min-width: 25%;
+    }
+    
+}
+
+
+
+
+
+

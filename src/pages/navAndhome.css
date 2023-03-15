@@ -1,0 +1,394 @@
+.scroll {
+     background-color: rgba(0, 0, 0, 0.890); 
+     transition: 0.8s ease-in;
+  }
+  
+  .animate__animated{
+    transform: smooth;
+  }
+
+  .navbar , .nav-sm-screen{
+animation: nav-load 1s;
+  }
+  @keyframes nav-load {
+    0%{
+      transform: translateY(-100%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .carousel-item img{
+    height: 700px;
+  }
+  
+  .carousel-caption h1 {
+    color: whitesmoke;
+  }
+
+  .carousel-caption{
+    text-align: center;
+    top:35%;
+  }
+  
+  .fa-bars , .carousel-caption p{
+    color: rgb(211, 153, 7);
+  }
+  .carousel-caption p{
+    font-weight:lighter;
+  }
+  .carousel-caption .btn {
+    /* width: 20%; */
+    text-decoration: none;
+    background-color: rgb(211, 153, 7);
+    color: whitesmoke;
+    font-size: large;
+  }
+  
+  .navbar .container-fluid  h2 span , .nav-sm-screen #teamscylla_span , .offcanvas-lg .offcanvas-header .offcanvas-title ul li span {
+    text-decoration: none;
+    color: rgb(211, 153, 7) ;
+  }
+
+  .nav-sm-screen ul li #sm-btn{
+    border-radius: 7px;
+    border: 2px solid rgb(211, 153, 7);
+    background: none;
+  }
+   
+  .navbar .container-fluid  h2 , .nav-sm-screen #teamscylla , .offcanvas-lg .offcanvas-header .offcanvas-title ul li h2{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .offcanvas-lg .offcanvas-header .offcanvas-title ul li .btn {
+    color: whitesmoke;
+  }
+
+
+  .navbar .container-fluid ul li a  {
+    color: whitesmoke;
+    font-size: 0.8vw; 
+    transition: transform .2s ;
+  }
+
+  .navbar .container-fluid ul li a:hover{
+    color:rgb(211, 153, 7) ;
+    transform: scale(1.2);
+  }
+
+
+  .navbar .container-fluid ul li  .btn , .offcanvas-lg .offcanvas-body ul li .btn{
+    font-size: 0.8vw; 
+    transition: transform .2s ;
+    background-color: rgb(211, 153, 7) ;
+  }
+  
+  .navbar .container-fluid ul li  .btn:hover{
+    color: whitesmoke;
+    transform: scale(1.2);
+  }
+
+  .container-fluid .row h1{
+    text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+    color: whitesmoke;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  
+  .container-fluid .row .col .abw{
+    font-size: 17px;
+    font-weight: 370;
+    color: whitesmoke;
+  }
+  .container-fluid .row .col .abw2{
+    font-size: 17px;
+    font-weight:370;
+    color: whitesmoke;
+  }
+  .container-fluid .prevwork .card{
+    background: none;
+    border: none;
+  }
+  .container-fluid .prevwork .card h2{
+    color: rgb(211, 153, 7);
+  }
+
+  footer ul li h6:hover{
+    color: rgb(34, 33, 25) ;
+    font-size: 120% ;
+    font-weight:500;
+    transition: 0.3s ease-in;
+
+  }
+  footer .col .row  .linked:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:rgb(2, 79, 110) ;
+  }
+footer .col .row  .twitter:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:rgb(3, 182, 253) ;
+  }
+  footer .col .row  .youtube:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:red ;
+  }
+  footer .col .row  .facebook:hover{
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background:blue ;
+  }
+  footer .col .row  .insta:hover {
+    transform: rotate(360deg);
+    transition: 0.9s ease-out;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  } 
+
+  
+  @media  screen and (max-width:767px) {
+    
+    #carouselExampleFade img{
+      height: 500px;
+    }
+    @media  screen and (max-width:577px) {
+      .container-fluid .row .col .abw{
+        font-size: 15px;
+        order: 1;
+      }
+      footer .foot-col i{
+        margin: 0;
+        padding: 0;
+      }
+
+      footer .foot-col , footer .foot-col .in-col {
+        min-width: 100%;
+        font-size: 12px;
+      }
+
+      
+
+    }
+    
+  }
+
+  .carousel-item .image{
+    animation: zoom-in-zoom-out 10s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  @media screen and (max-width:1200px){
+
+    .container-fluid .row h1{
+      text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+      color: whitesmoke;
+      font-size: 3.5rem;
+      font-weight: bolder;
+    }
+
+    .navbar-nav , .nav-items{
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    footer .row .foot-col .row .ts-col2 span{
+      font-size: 28px !important;
+    }
+    footer .row .foot-col .row .ts-col2 p {
+      font-size: 12px !important;
+    }
+    
+    .container-fluid .row .col .abw{
+      font-size: 17px;
+      font-weight:300;
+      color: whitesmoke;
+    }
+    .container-fluid .row .col .abw2{
+      font-size: 16px;
+      font-weight:300;
+      color: whitesmoke;
+      min-width: 100%;
+    }
+
+    @media screen and (max-width:1000px) {
+      .container-fluid .row h1{
+        text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+        color: whitesmoke;
+        font-size: 3.3rem;
+        font-weight: bolder;
+      }
+      #abimg1 img , #abimg2 img {
+        width: 75%;
+      }
+      #abimg3 img{
+        width: 100%;
+      }
+      footer .row .foot-col .row .ts-col2 span{
+        font-size: 21px !important;
+      }
+    }
+    
+    
+    @media screen and (max-width:900px){
+      
+      .container-fluid .row h1{
+        text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+        color: whitesmoke;
+        font-size: 3rem;
+        font-weight: bolder;
+      }
+
+      footer .row .foot-col .row .ts-col2 span{
+        font-size: 21px !important;
+      }
+      footer .row .foot-col .row .ts-col2 p {
+        font-size: 12px !important;
+      }
+      .container-fluid .row .col .abw{
+        font-size: 17px;
+        font-weight: 300;
+        color: whitesmoke;
+      }
+      .container-fluid .row .col .abw2{
+        font-size: 15px;
+        font-weight:360;
+        color: whitesmoke;
+      }
+      
+    }
+    
+    
+    @media screen and (max-width:767px){
+      #abimg3 img{
+        width: 75%;
+      }
+
+      .container-fluid .row h1{
+        text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+        color: whitesmoke;
+        font-size: 2.8rem;
+        font-weight: bolder;
+      }
+      footer .foot-col .in-col {
+        min-width: 50%;
+      }
+    
+      footer .row .foot-col .row .ts-col1 img {
+        width: 90%;
+      }
+  
+      footer .row .foot-col .row .ts-col2 span{
+        font-size: 30px !important;
+      }
+      
+
+    }
+    @media screen and (max-width:600px) {
+      .container-fluid .row h1{
+        text-shadow: -2px 5px 5px rgba(0, 0, 0, 0.632);
+        color: whitesmoke;
+        font-size: 2.5rem;
+        font-weight: bolder;
+      }
+      .container-fluid .row .col .abw2{
+        font-size: 15px;
+        font-weight:300;
+        color: whitesmoke;
+      }
+      .container-fluid .prevwork{
+        padding: 2%;
+      }
+      .container-fluid .gallery {
+        padding: 7%;
+      }
+
+      .container-fluid .gallery .g-col .r-row{
+        padding: 0%;
+      }
+      .container-fluid .gallery .g-col .col{
+        /* padding: 0%; */
+        min-width: 50%;
+      }
+      .container-fluid .prevwork .col {
+        min-width: 100%;
+      }
+      .container-fluid .prevwork .card {
+        min-width: 100%;
+      }
+      .container-fluid .paddingrow{
+        padding: 6%;
+      }
+
+      .container-fluid .paddingrow .quad-col1{
+        min-width: 100%;
+        order: 2;
+        margin-top: 3%;
+      }
+
+      .carousel-item img{
+        max-height: 400px !important;
+      }
+      .container .row .col .abw{
+        order: 1;
+      }
+      .ab-col{
+        min-width: 100%;
+      }
+      .container-fluid .row .col .abw{
+        font-size: 12px;
+        font-weight: normal;
+        color: whitesmoke;
+      }
+
+
+      footer .foot-col .in-col {
+        min-width: 50%;
+      }
+  
+      footer .row .foot-col .row .ts-col1{
+        min-width: 40%;
+      }
+  
+      footer .row .foot-col .row .ts-col1 img {
+        width: 80%;
+      }
+  
+      footer .row .foot-col .row .ts-col2{
+        min-width: 60%;
+      }
+  
+      footer .row .foot-col .row .ts-col2 span{
+        font-size: 30px !important;
+      }
+
+      footer .row .foot-col .row .col .row .i-col{
+        min-width: 15% !important;
+        margin: 0%;
+      }
+      footer .row .foot-col .row .col .row  .phone{
+        /* border: 2px solid red; */
+        font-size: 19.8px !important;
+        padding: 6%;
+      }
+    
+    }
+
+
+  }
+  
+  
