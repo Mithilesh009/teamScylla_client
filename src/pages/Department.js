@@ -62,7 +62,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Sanjana Goral </h5>
                               <p className="card-text"> Brake Head </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -89,7 +89,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Arshad Khan </h5>
                               <p className="card-text"> Suspension Head </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -101,7 +101,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Sahil Hazare </h5>
                               <p className="card-text"> Chassis Head </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -127,7 +127,7 @@ export default function Department() {
                                   <div className="card-body">
                                     <h5 className="card-title"> Bhavesh Nikum </h5>
                                     <p className="card-text"> Manager </p>
-                                    <a href="some" className="btn btn-primary">follow + </a>
+                                    <a href="/" className="btn btn-primary">follow + </a>
                                   </div>
                                 </div>
                       </div>
@@ -194,7 +194,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Mihir Salunke </h5>
                               <p className="card-text"> Member </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -242,7 +242,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Om Dhanave </h5>
                               <p className="card-text"> Member </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -254,7 +254,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Shreeyas Pathak </h5>
                               <p className="card-text"> Member </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -266,7 +266,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Naman Nandurkar </h5>
                               <p className="card-text"> Member </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -278,7 +278,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Ajit Sonawane </h5>
                               <p className="card-text"> Member </p>
-                              <a href="some" className="btn btn-primary">follow + </a>
+                              <a href="/" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
