@@ -38,7 +38,7 @@ export default function Navbar() {
 
 
 
-    const addData =()=>{
+    const addData = async()=>{
 
       if(userName === "" ){
         notify_name();
@@ -53,9 +53,8 @@ export default function Navbar() {
         notify_Phone();
       }
       else{
-        console.log("form submission in process")
         notify_formSubmission();
-        axios.post("https://teamscyllaserver-30mr.onrender.com/create", {
+         axios.post("https://teamscyllaserver-30mr.onrender.com/create",{
           userName:userName,
           userEmail:userEmail,
           userPhone:userPhone,
@@ -78,24 +77,24 @@ export default function Navbar() {
 <nav className={navbar ? "navbar d-none d-lg-block scroll fixed-top py-0" : " navbar d-none d-lg-block fixed-top py-0 "}>
   <div className="container-fluid py-0 my-0 ">
     <img className="navbar-brand py-0" src='images/logoScylla-W.png' width="55vw" alt=''></img>
-    <Link aria-current="page" to="/" style={{textDecoration:"none"}}><h2 className='fs-2'>Team <span> Scylla </span> </h2></Link>
+    <Link aria-current="page" to="/" style={{textDecoration:"none"}}><h2 className='fs-2'>TEAM <span> SCYLLA </span> </h2></Link>
     
-      <ul className="list-inline ms-auto py-0 ">
+      <ul className="list-inline ms-auto py-0">
   
         <li className="list-inline-item  ">
-            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/event"><h4> Event</h4></Link>
+            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/event"><h5>OUR JOURNEY </h5></Link>
         </li>
         <li className="list-inline-item  ">
-            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/sponsors"><h4>Sponsors</h4></Link>
+            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/sponsors"><h5> SPONSOR </h5></Link>
         </li>
         <li className="list-inline-item  ">
-            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/gallery"><h4>Gallery</h4></Link>
+            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/gallery"><h5> GALLERY </h5></Link>
         </li>
         <li className="list-inline-item  ">
-            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/department"><h4>Members</h4></Link>
+            <Link className="nav-link m-xl-2 p-lg-2 pt-lg-4 " aria-current="page" to="/department"><h5> TEAM </h5></Link>
         </li>
         <li className="list-inline-item  ">
-            <Link className="nav-link btn m-xl-2 p-lg-1 " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" to="/"><h4>Contact us</h4></Link>
+            <Link className="nav-link btn m-xl-2 pt-lg-2 px-lg-2 " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" ><h5> CONTACT US </h5></Link>
         </li>
 
       </ul>
@@ -108,7 +107,7 @@ export default function Navbar() {
 
 <ul className="list-inline w-100 py-1 my-0">
   <li className="list-inline-item"><img className="" src='images/logoScylla-W.png' width="55vw" alt=''></img></li>
-  <li className="list-inline-item"><Link aria-current="page"  id='teamscylla' to="/" ><h2 className='fs-1'>Team <span id='teamscylla_span'> Scylla</span></h2></Link></li>
+  <li className="list-inline-item"><Link aria-current="page"  id='teamscylla' to="/" ><h2 className='fs-1'>TEAM <span id='teamscylla_span'> SCYLLA</span></h2></Link></li>
   <li className="list-inline-item float-end mt-2" ><button className=" px-2 py-1 " id='sm-btn'   type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive" title='bars'> <i className="fa-solid fa-bars fa-xl "></i> </button></li>
 </ul>
 
@@ -119,7 +118,7 @@ export default function Navbar() {
     <div className="offcanvas-title row w-100 m-0 p-0" id="offcanvasResponsiveLabel">
       <ul className="list-inline col col-12 p-2 " >
         <li className="list-inline-item"><img className="" src='images/logoScylla-W.png' width="55vw" alt=''></img></li>
-        <li className="list-inline-item"><Link aria-current="page" to="/" style={{textDecoration:'none'}}><h2>Team <span> Scylla </span></h2></Link></li>
+        <li className="list-inline-item"><Link aria-current="page" to="/" style={{textDecoration:'none'}}><h2>TEAM <span> SCYLLA </span></h2></Link></li>
         <li className="list-inline-item float-end  text-light" ><button className="btn fs-4" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"><i className="fa-solid fa-x"></i></button></li>
       </ul>
     </div> 
@@ -128,19 +127,19 @@ export default function Navbar() {
   <ul className="navbar-nav ms-auto text-start text-light">
         
         <li className="nav-item">
-            <Link className="nav-link mx-2  py-1 " aria-current="page" to="/event"><h4> Event</h4></Link>
+            <Link className="nav-link mx-2  py-1 " aria-current="page" to="/event"><h4> OUR JOURNEY</h4></Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/sponsors"><h4>Sponsors</h4></Link>
+            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/sponsors"><h4>SPONSORS</h4></Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/gallery"><h4>Gallery</h4></Link>
+            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/gallery"><h4>GALLERY</h4></Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/department"><h4>Members</h4></Link>
+            <Link className="nav-link mx-2  py-1  " aria-current="page" to="/department"><h4>TEAM</h4></Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link btn py-1 " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" to="/"><h4>Contact us</h4></Link>
+            <Link className="nav-link btn py-1 " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" to="/"><h4>CONTACT US</h4></Link>
         </li>
       </ul>
   </div>
@@ -159,7 +158,7 @@ export default function Navbar() {
   <div  className="modal-dialog modal-dialog-centered">
     <div  className="modal-content " style={{border:"none"}}>
       <div  className="modal-header text-light bg-warning border border-5 border-warning rounded-top">
-        <h1  className="modal-title fs-5 " id="staticBackdropLabel"> Contact Us </h1>
+        <h1  className="modal-title fs-5 " id="staticBackdropLabel"> CONTACT US </h1>
         <button type="button"  className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div  className="modal-body text-light bg-dark border border-5 border-dark rounded-bottom ">
