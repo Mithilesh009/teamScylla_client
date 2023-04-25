@@ -29,7 +29,7 @@ export default function Department() {
               <div className="col col-xl-12 px-0"  >
 
                   <div className="row text-light p-5 justify-content-center team-heads">
-                        <div className="col col-xl-12 text-center p-0"><h2>Team Heads</h2></div>
+                        <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center p-0"><h2>Team Heads</h2></div>
                       <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6 text-center">
 
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
@@ -43,7 +43,16 @@ export default function Department() {
 
                         </div>
 
-                        <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                      </div>
+
+                  
+
+
+
+
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>ENGINE & DESIGN</h2></div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/yadnesh.webp" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
@@ -52,26 +61,55 @@ export default function Department() {
                               <a href="https://www.linkedin.com/in/yadnesh-khandagale-6ab101236" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
-
-                      </div>
-                      
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                  </div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/putri.webp" className="card-img-top rounded-top " alt="..."/>
+                            <img src="images/mihir.jpg" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
-                              <h5 className="card-title"> Sanjana Goral </h5>
-                              <p className="card-text"> Brake Head </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
+                              <h5 className="card-title"> Mihir Salunke </h5>
+                              <p className="card-text"> Member </p>
+                              <a href="some" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
                       </div>
 
-                
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6 text-center">
+                  </div>
 
-                            <div className="card mx-auto" style={{width: "18rem" , border:"none"}}>
+
+
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>BRAKE</h2></div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/putri.webp" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Sanjana Goral </h5>
+                              <p className="card-text"> Brake Head </p>
+                              <a href="some" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
+
+                      </div>
+
+                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/om.jpg" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Om Dhanave </h5>
+                              <p className="card-text"> Member </p>
+                              <a href="some" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
+
+                      </div>
+
+                  </div>
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>STEERING</h2></div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6 text-center">
+
+                            <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/putri.webp" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
                               <h5 className="card-title"> Janhavi Ikhe </h5>
@@ -82,76 +120,159 @@ export default function Department() {
 
                         </div>
 
-
                         <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/sudarshan.webp" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Sudarshan Gaikwad </h5>
+                              <p className="card-text"> Steering </p>
+                              <a href="https://www.linkedin.com/in/sudarshan-gaikwad-54085b236" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+
+
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>SUSPENSION</h2></div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/arshad.webp" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
                               <h5 className="card-title"> Arshad Khan </h5>
                               <p className="card-text"> Suspension Head </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
+                              <a href="some" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
                       </div>
-                      
-                        <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto" style={{width: "18rem" , border:"none"}}>
+
+                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/mayur.jpg" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Mayur Aher </h5>
+                              <p className="card-text"> Suspension </p>
+                              <a href="https://www.linkedin.com/in/mayur-aher-925576251" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
+
+                      </div>
+
+                    
+                  </div>
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>CHASIS</h2></div>
+                                            
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75 h-100" style={{width: "18rem" , border:"none"}}>
                             <img src="images/George.webp" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
                               <h5 className="card-title"> Sahil Hazare </h5>
                               <p className="card-text"> Chassis Head </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
+                              <a href="some" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
                       </div>
-                      
+                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/bagal.jpg" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Prathmesh Bagal </h5>
+                              <p className="card-text"> CHASIS </p>
+                              <a href="https://www.linkedin.com/in/prathamesh-bagal-a678811a7" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
 
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6 text-center">
+                      </div>
+                  </div>
 
+
+
+
+                  <div className="row text-light p-5 justify-content-center team-heads">
+                  <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>MARKETING</h2></div>
+                  <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6 text-center">
                             <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/ketan.png" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
                               <h5 className="card-title"> Ketan Ghadage </h5>
-                              <p className="card-text">Marketing Head</p>
+                              <p className="card-text">MARKETING HEAD</p>
                               <a href="https://www.linkedin.com/in/ketan-ghadge-392013206" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
                         </div>
 
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                            <div className="card mx-auto" style={{width: "18rem" , border:"none"}}>
-                                  <img src="images/bhavesh.png" className="card-img-top rounded-top" height={210} alt="..."/>
-                                  <div className="card-body">
-                                    <h5 className="card-title"> Bhavesh Nikum </h5>
-                                    <p className="card-text"> Manager </p>
-                                    <a href="/" className="btn btn-primary">follow + </a>
-                                  </div>
-                                </div>
+                        <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/putri.webp" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Vaishnavi Patil </h5>
+                              <p className="card-text"> MARKETING </p>
+                              <a href="https://www.linkedin.com/in/vaishnavi-patil-345876205" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
+
                       </div>
 
                       
+                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
+                          <div className="card mx-auto h-100" style={{width: "18rem" , border:"none"}}>
+                            <img src="images/profile.webp" className="card-img-top rounded-top " alt="..."/>
+                            <div className="card-body">
+                              <h5 className="card-title"> Yash Dekhne </h5>
+                              <p className="card-text"> MARKETING </p>
+                              <a href="https://www.linkedin.com/in/yash-dhekne" className="btn btn-primary">follow + </a>
+                            </div>
+                          </div>
 
-                  </div>
-
-                  <div className="row text-light p-5 justify-content-center team-members">
-                      <div className="col col-xl-12 text-center "><h2>Team Members</h2></div>
-                      
+                      </div>
 
                       <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/mithilesh.webp" className="card-img-top rounded-top " alt="..."/>
                             <div className="card-body">
                               <h5 className="card-title"> Mithilesh Jogale </h5>
-                              <p className="card-text"> Web Developer </p>
+                              <p className="card-text"> WEB DEVELOPER </p>
                               <a href="https://www.linkedin.com/in/mithilesh-jogale-5bb36620b" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
                       </div>
+                   
+
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <div className="row text-light p-5 justify-content-center team-members">
+                      <div className="col col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h2>Team Members</h2></div>
                       
+
+                        
                       <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
                             <img src="images/ashu.webp" className="card-img-top rounded-top " alt="..."/>
@@ -164,113 +285,22 @@ export default function Department() {
 
                       </div>
                       
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/mayur.jpg" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Mayur Aher </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="https://www.linkedin.com/in/mayur-aher-925576251" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
+                      
 
-                      </div>
+                     
+
 
                       <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/profile.webp" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Yash Dekhne </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="https://www.linkedin.com/in/yash-dhekne" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
+                            <div className="card mx-auto" style={{width: "18rem" , border:"none"}}>
+                                  <img src="images/bhavesh.png" className="card-img-top rounded-top" height={210} alt="..."/>
+                                  <div className="card-body">
+                                    <h5 className="card-title"> Bhavesh Nikum </h5>
+                                    <p className="card-text"> Manager </p>
+                                    <a href="some" className="btn btn-primary">follow + </a>
+                                  </div>
+                                </div>
                       </div>
 
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/mihir.jpg" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Mihir Salunke </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/sudarshan.webp" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Sudarshan Gaikwad </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="https://www.linkedin.com/in/sudarshan-gaikwad-54085b236" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/putri.webp" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Vaishnavi Patil </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="https://www.linkedin.com/in/vaishnavi-patil-345876205" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/bagal.jpg" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Prathmesh Bagal </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="https://www.linkedin.com/in/prathamesh-bagal-a678811a7" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/om.jpg" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Om Dhanave </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/shreyash.png" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Shreeyas Pathak </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
-                          <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
-                            <img src="images/naman.jpg" className="card-img-top rounded-top " alt="..."/>
-                            <div className="card-body">
-                              <h5 className="card-title"> Naman Nandurkar </h5>
-                              <p className="card-text"> Member </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
-                            </div>
-                          </div>
-
-                      </div>
 
                       <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-6  text-center">
                           <div className="card mx-auto w-75" style={{width: "18rem" , border:"none"}}>
@@ -278,7 +308,7 @@ export default function Department() {
                             <div className="card-body">
                               <h5 className="card-title"> Ajit Sonawane </h5>
                               <p className="card-text"> Member </p>
-                              <a href="/" className="btn btn-primary">follow + </a>
+                              <a href="some" className="btn btn-primary">follow + </a>
                             </div>
                           </div>
 
@@ -286,6 +316,8 @@ export default function Department() {
 
 
                       
+
+                  </div>
 
                   </div>
 
@@ -300,7 +332,7 @@ export default function Department() {
           
             
         </div>
-    </div>
+    {/* </div> */}
 
 
 
