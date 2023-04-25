@@ -17,7 +17,7 @@
 
 
 .bor .f-col img{
-    border: 3px solid rgb(211, 153, 7);
+    border: 2px solid grey ;
     transition: transform .3s;
 }
 .bor .f-col img:hover{
@@ -30,7 +30,6 @@
     font-size: 120% ;
     font-weight:500;
     transition: 0.3s ease-in;
-
   }
   footer .col .row  .linked:hover{
     transform: rotate(360deg);
