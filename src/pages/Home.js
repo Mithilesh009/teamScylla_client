@@ -5,6 +5,7 @@ import "animate.css";
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Data from '../data.json'
 // import { Link } from 'react-router-dom';
 
 
@@ -22,7 +23,7 @@ export default function Home() {
      <div id="carouselExampleFade" className="carousel slide carousel-fade bg-dark" data-bs-ride="carousel">
                 <div className="carousel-inner " style={{marginBottom:"-20px"}}>
                     <div className="carousel-item active" >
-                        <img  src="images/team_scylla.jpeg" className="d-block w-100 opacity-25 image  "  alt="..." />
+                        <img  src={Data[0].home[0].carousel} className="d-block w-100 opacity-25 image  "  alt="..." />
                         <div className="carousel-caption ">
                             <h1  className='animate__animated animate__bounceInLeft animate__delay-0.5s  ' ><span style={{fontSize:"160%"}} > TEAM SCYLLA RACING </span></h1>
                             <p className='animate__animated animate__bounceInRight animate__delay-1.5s fs-4 ' > " PERFORMANCE OVER EVERYTHING " </p>
@@ -75,7 +76,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay ='100' className="  col col-xl-5 col-lg-5 col-md-12 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-2 text-center" id='abimg1'><img src="images/frontImg.jpeg" alt="" className='img-fluid ' /></div>
+                        <div data-aos="fade-up" data-aos-delay ='100' className="  col col-xl-5 col-lg-5 col-md-12 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-2 text-center" id='abimg1'><img src={Data[0].home[0].aboutus} alt="" className='img-fluid ' /></div>
                     </div> 
                     
 
@@ -94,7 +95,7 @@ export default function Home() {
                     <div className="row text-light text-start " >
                         <div className="col ">
                             <div className="row p-xl-5 p-lg-5 p-md-4 p-sm-3 paddingrow" style={{backgroundImage:"linear-gradient(to bottom, #3E5151 -100%, black)"}} >
-                                <div className="text-center col col-xl-4 col-lg-4 col-md-5 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-2 opacity-75 quad-col1 pt-xl-0 pt-lg-0 pt-md-2 pt-sm-2 p-1" id="abimg3" ><img src="images/_MG_4215.jpg"  className="" width="100%" alt="..."/></div>
+                                <div className="text-center col col-xl-4 col-lg-4 col-md-5 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-2 opacity-75 quad-col1 pt-xl-0 pt-lg-0 pt-md-2 pt-sm-2 p-1" id="abimg3" ><img src={Data[0].home[0].quad}  className="" width="100%" alt="..."/></div>
                                 <div className="col col-xl-8 col-lg-8 col-md-7 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-1 pt-xl-5 pt-lg-5 pt-md-0 pt-sm-0 px-xl-5 px-lg-5 px-md-2 px-sm-2 quad-col">
                                     <h1 className='fs-1' data-aos='fade-up' data-aos-delay='100' style={{fontWeight:"bold"}}>Quad Torc</h1>
                                     <p className=' abw lh-lg' data-aos='fade-up' data-aos-delay='200' style={{}} >Quad Torc is an off road design challenge for engineering and Diploma undertaking students.  Quad is a four wheeled bike, an ATV (All-Terrain Vehicle) that was manufactured to use as 
