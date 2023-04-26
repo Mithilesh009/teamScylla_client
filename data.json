@@ -1,0 +1,13 @@
+[
+    {
+        "home":[{}],
+        "event":[{
+            "banner": "images/event.jpg",
+            "isnee_img": "images/Picture6.jpg",
+            "shadow3.0": "images/_MG_4215.jpg",
+            "shadow2.0": "images/Picture5.jpg",
+            "shadow1.0": "images/Picture1.jpg"
+        }],
+        "sponsors":[{}]
+    }
+]
