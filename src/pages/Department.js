@@ -323,10 +323,10 @@ export default function Department() {
 
             </div>
             
-              </div>
               <div className="px-0">
                       <Footer/>
-                  </div>            
+                  </div>   
+              </div>         
             
 
           
