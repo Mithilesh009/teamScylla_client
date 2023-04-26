@@ -28,7 +28,7 @@ export default function Sponsors() {
             <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-4 p-5  "><img src="images/Dassault-Systemes.webp" className='img-fluid' alt="" /></div>
             <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-4 p-5  "><img src="images/red-bull-logo.webp" className='img-fluid' alt="" /></div>
             <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-4  p-5 text-center"><a href="https://in.linkedin.com/company/oshin-engineering-private-limited" style={{textDecoration:"none",color:"white"}}> <img src="images/oshin.jpg" alt="" className='w-75'  /><br /> <h4 className='p-2'>OSHIN ENGINEERING PRIVATE LIMITED </h4> </a></div>
-            <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-4 p-5  "><a href='http://rainbowgpl.com/' style={{textDecoration:"none",color:"white"}}> <h2> RAINBOW GARNISHER PRIVATE LIMITED </h2></a></div>
+            <div className="col col-xl-4 col-lg-4 col-md-4 col-sm-4 p-5  text-center"><a href='http://rainbowgpl.com/' style={{textDecoration:"none",color:"white"}}> <h2> RAINBOW GARNISHER PRIVATE LIMITED </h2></a></div>
         </div>
 
         <div className="px-0">
