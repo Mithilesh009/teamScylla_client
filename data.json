@@ -19,6 +19,7 @@
             "dassault":"images/Dassault-Systemes.webp",
             "redBull" : "images/red-bull-logo.webp",
             "oshin" :"images/oshin.jpg"
-        }]
+        }],
+        "navbar":"images/logoScylla-W.png"
     }
 ]
