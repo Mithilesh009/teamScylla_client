@@ -4,6 +4,7 @@ import './navAndhome.css'
 import axios from 'axios'
 import {ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Data from '../data.json'
 
 export default function Navbar() {
 
@@ -76,7 +77,7 @@ export default function Navbar() {
 
 <nav className={navbar ? "navbar d-none d-lg-block scroll fixed-top py-0" : " navbar d-none d-lg-block fixed-top py-0 "}>
   <div className="container-fluid py-0 my-0 ">
-    <img className="navbar-brand py-0" src='images/logoScylla-W.png' width="55vw" alt=''></img>
+    <img className="navbar-brand py-0" src={Data[0].navbar} width="55vw" alt=''></img>
     <Link aria-current="page" to="/" style={{textDecoration:"none"}}><h2 className='fs-2'>TEAM <span> SCYLLA </span> </h2></Link>
     
       <ul className="list-inline ms-auto py-0">
