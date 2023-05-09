@@ -48,7 +48,11 @@
 }
 
 @media only screen and (max-width : 600px){
+<<<<<<< HEAD
     .d-ab .team-heads .col {
+=======
+   .d-ab .team-heads .col {
+>>>>>>> 05eb6d095d3ff8e56f72a2fbc1aaeb3d68d6cf65
         min-width: 100%;
         margin-top: 0%;
     } 

@@ -25,6 +25,7 @@ export default function Event() {
             <div className="col main-col-2 col-xl-12 ">
                 <div className="row text-center py-4"><h1>OUR JOURNEY</h1></div>
                 
+<<<<<<< HEAD
             <div className="row card-row text-center p-xl-5 p-lg-5 p-md-4 p-sm-3" >
 
             <div className="row justify-content-center">
@@ -32,6 +33,15 @@ export default function Event() {
                 <div className="col col-xl-7 col-lg-7 col-md-7 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-1 text-start text-light p-xl-5 p-lg-4 p-md-3 p-sm-4">
                     <h2 style={{color:"rgb(211, 153, 7)"}} >ISNEE MOTORSPORTS</h2>
                     <h5 className='my-xl-5 my-lg-4 my-md-3 my-sm-2'>The journey of Team Scylla began way back in 2017 when a group of 25 undergraduates dared to do something different. They came up with an idea of forming a team which will build an All-Terrain Vehicle (ATV) to compete in the prestigious competition of Quad Torc.</h5></div>
+=======
+            <div className="row card-row text-center p-5" >
+
+            <div className="row justify-content-center">
+                <div className="col col-xl-5 col-lg-5 col-md-5 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-2"><img src={Data[0].event[0].isnee_img} className='img-fluid' alt="" /></div>
+                <div className="col col-xl-7 col-lg-7 col-md-7 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-1 text-start text-light p-xl-5 p-lg-4 p-md-3 p-sm-1">
+                    <h2 style={{color:"rgb(211, 153, 7)"}} >ISNEE MOTORSPORTS</h2>
+                    <h5 className='my-xl-5 my-lg-4 my-md-3 my-ms-1'>The journey of Team Scylla began way back in 2017 when a group of 25 undergraduates dared to do something different. They came up with an idea of forming a team which will build an All-Terrain Vehicle (ATV) to compete in the prestigious competition of Quad Torc.</h5></div>
+>>>>>>> 05eb6d095d3ff8e56f72a2fbc1aaeb3d68d6cf65
             </div>
 
                 <h1 className='my-5' >Previous Models</h1>

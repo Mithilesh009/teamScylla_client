@@ -7,6 +7,7 @@
   border-radius: 10px;
   transition: transform .3s;
   background: transparent;
+<<<<<<< HEAD
 }
 
 .container-fluid .row .main-col-2 .card-row .card h2{
@@ -14,6 +15,15 @@
   font-weight: bold;
 }
 
+=======
+}
+
+.container-fluid .row .main-col-2 .card-row .card h2{
+  color: rgb(211, 153, 7) ;
+  font-weight: bold;
+}
+
+>>>>>>> 05eb6d095d3ff8e56f72a2fbc1aaeb3d68d6cf65
 .container-fluid .row .main-col-2 .card-row .col{
   margin: 2% 0% 2% 0%;
 }
@@ -34,6 +44,10 @@
   position: absolute;
   margin-top: -30%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05eb6d095d3ff8e56f72a2fbc1aaeb3d68d6cf65
 
 @media screen and (max-width:600px) {
 
@@ -53,7 +67,10 @@
   }
   .container-fluid .row .main-col-2 .card-row .row .order-xl-2{
     order: 1;
+<<<<<<< HEAD
     padding: 7% !important;
+=======
+>>>>>>> 05eb6d095d3ff8e56f72a2fbc1aaeb3d68d6cf65
   }
 }
   

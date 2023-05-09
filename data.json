@@ -1,0 +1,25 @@
+[
+    {
+        "home":[{
+            "carousel":"images/team_scylla.jpeg",
+            "aboutus": "images/frontImg.jpeg",
+            "quad" : "images/_MG_4215.jpg"
+        }],
+        "event":[{
+            "banner": "images/event.jpg",
+            "isnee_img": "images/Picture6.jpg",
+            "shadow3.0": "images/_MG_4215.jpg",
+            "shadow2.0": "images/Picture5.jpg",
+            "shadow1.0": "images/Picture1.jpg"
+        }],
+        "sponsors":[{
+            "banner":"images/sponsor.jpg",
+            "crossHead" :"images/crossHead.jpeg",
+            "ansys":"images/ansys.jfif",
+            "dassault":"images/Dassault-Systemes.webp",
+            "redBull" : "images/red-bull-logo.webp",
+            "oshin" :"images/oshin.jpg"
+        }],
+        "navbar":"images/logoScylla-W.png"
+    }
+]
