@@ -33,7 +33,6 @@ export default function Event() {
                     <h2 style={{color:"rgb(211, 153, 7)"}} >ISNEE MOTORSPORTS</h2>
                     <h5 className='my-xl-5 my-lg-4 my-md-3 my-sm-2'>The journey of Team Scylla began way back in 2017 when a group of 25 undergraduates dared to do something different. They came up with an idea of forming a team which will build an All-Terrain Vehicle (ATV) to compete in the prestigious competition of Quad Torc.</h5></div>
             </div>
-
                 <h1 className='my-5' >Previous Models</h1>
 
             <div className="col col-xl-6 col-lg-6 col-md-6 col-sm-12 ">

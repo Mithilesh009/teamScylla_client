@@ -45,9 +45,7 @@ export default function Department() {
 
                       </div>
 
-                  
-
-
+                
 
 
                   <div className="row text-light p-5 justify-content-center team-heads">

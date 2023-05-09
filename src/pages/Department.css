@@ -47,7 +47,6 @@
     font-size: 1.2vw;
 }
 
-
 @media only screen and (max-width : 600px){
     .d-ab .team-heads .col {
         min-width: 100%;
