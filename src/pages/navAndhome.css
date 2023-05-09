@@ -340,8 +340,18 @@ footer .col .row  .twitter:hover{
         margin-top: 3%;
       }
 
+      .container-fluid .container #strip{
+        margin-top: 4%;
+      }
       .carousel-item img{
-        max-height: 400px !important;
+        max-height: 350px !important;
+        max-width: 100%;
+      }
+      .carousel-caption h1{
+        font-size: 17px;
+      }
+      .carousel-caption p{
+        font-size: 14px !important;
       }
       .container .row .col .abw{
         order: 1;
@@ -382,7 +392,7 @@ footer .col .row  .twitter:hover{
       }
       footer .row .foot-col .row .col .row  .phone{
         /* border: 2px solid red; */
-        font-size: 19.8px !important;
+        font-size: 16.8px !important;
         padding: 6%;
       }
     

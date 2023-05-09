@@ -1,0 +1,45 @@
+[
+    {
+        "home":[{
+            "carousel":"images/team_scylla.jpeg",
+            "aboutus": "images/frontImg.jpeg",
+            "quad" : "images/_MG_4215.jpg"
+        }],
+        "event":[{
+            "banner": "images/event.jpg",
+            "isnee_img": "images/Picture6.jpg",
+            "shadow3.0": "images/_MG_4215.jpg",
+            "shadow2.0": "images/Picture5.jpg",
+            "shadow1.0": "images/Picture1.jpg"
+        }],
+        "sponsors":[{
+            "banner":"images/sponsor.jpg",
+            "crossHead" :"images/crossHead.jpeg",
+            "ansys":"images/ansys.jfif",
+            "dassault":"images/Dassault-Systemes.webp",
+            "redBull" : "images/red-bull-logo.webp",
+            "oshin" :"images/oshin.jpg"
+        }],
+        "navbar":"images/logoScylla-W.png" ,
+        "gallery":[
+            {"id":1 , "img1":"images/DSC_0093.jpg"},
+            {"id":2 , "img1":"images/_MG_4215.jpg"},
+            {"id":3 , "img1":"images/_MG_4240.jpg"},
+            {"id":4 , "img1":"images/_MG_4216.jpg"},
+            {"id":5 , "img1":"images/_MG_4212.jpg"},
+            {"id":6 , "img1":"images/_MG_4215.jpg"},
+            {"id":7 , "img1":"images/_MG_4150.jpg"},
+            {"id":8 , "img1":"images/_MG_4128.jpg"},
+            {"id":9 , "img1":"images/_MG_4006-1.jpg"},
+            {"id":10 , "img1":"images/_MG_4001.jpg"},
+            {"id":11 , "img1":"images/_MG_3937.jpg"},
+            {"id":12 , "img1":"images/_MG_3931.jpg"},
+            {"id":13 , "img1":"images/_MG_3931-1.jpg"},
+            {"id":14 , "img1":"images/_MG_3924.jpg"},
+            {"id":15 , "img1":"images/_MG_3897.jpg"},
+            {"id":16 , "img1":"images/_MG_3883.jpg"},
+            {"id":17 , "img1":"images/_MG_3833.jpg"},
+            {"id":18 , "img1":"images/_MG_3829.jpg"}
+        ]
+    }
+]

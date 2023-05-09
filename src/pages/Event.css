@@ -1,36 +1,22 @@
-.container-fluid .position-relative{
-  margin-top: -25%;
+
+.container-fluid .row .main-col-2 .card-row{
   background-color: black;
 }
-.container-fluid .position-relative img{
-  filter: blur(3px);
-}
-
-.container-fluid .position-absolute{
-  margin-top: -35%;
-}
-
-.container-fluid .row .main-col-2 , .container-fluid .row .main-col-2 .card-row .card{
-  background-color: black;
-}
-
-.container-fluid .row .main-col-2 .isnee-ms h3 , .container-fluid .row .main-col-2 .isnee-ms h5 , .container-fluid .row .main-col-2 .quad-torc h3 , .container-fluid .row .main-col-2 .card-row .card .card-body .card-title{
-  color: rgb(211, 153, 7) ;
-}
-.container-fluid .row .main-col-2 .isnee-ms p , .container-fluid .row .main-col-2 .isnee-ms ul li ,.container-fluid .row .main-col-2 .quad-torc p , .container-fluid .row .main-col-2 .card-row .card .card-body .card-text{
-  color: whitesmoke;
-}
-
-.container-fluid .row .main-col-2 .quad-torc img{
- color: none;
-}
-
 .container-fluid .row .main-col-2 .card-row .card{
-  border: 1px solid rgba(245, 245, 245, 0.198);
+  border: none;
   border-radius: 10px;
   transition: transform .3s;
+  background: transparent;
 }
 
+.container-fluid .row .main-col-2 .card-row .card h2{
+  color: rgb(211, 153, 7) ;
+  font-weight: bold;
+}
+
+.container-fluid .row .main-col-2 .card-row .col{
+  margin: 2% 0% 2% 0%;
+}
 .container-fluid .row .main-col-2 .card-row .card:hover{
   transform: scale(1.05); 
   box-shadow: -3px 4px 27px 3px rgba(245, 245, 245, 0.198);
@@ -44,42 +30,32 @@
   filter: saturate(1.5);
 }
 
-
-@media screen and (max-width:600px) {
-  .main-col-1 , .main-col-2 , .container-fluid .row .main-col-2 .quad-torc .col{
-    min-width: 100%;
-  }
-
-  .container-fluid .row .main-col-2 .isnee-ms .text-col{
-    min-width: 100%;
-    order: 1;
-  }
-  .container-fluid .row .main-col-2 .isnee-ms .img-col{
-    min-width: 100%;
-    order: 2;
-  }
-
-  .container-fluid .position-relative{
-    margin-top: -20%;
-  }
-
-  .container-fluid .position-absolute{
-    margin-top: -25%;
-  }
-  
-  .container-fluid .row .main-col-2 .isnee-ms{
-    margin-top: 0px;
-    padding: 8%;
-  }
-
-  .container-fluid .row .main-col-1 h1{
-    font-size: 350%;
-  }
-
-  .container-fluid .row .main-col-2 .quad-torc img{
-    margin: 5% 0 0 0;
-  }
-
+.ab-row-2{
+  position: absolute;
+  margin-top: -30%;
 }
 
+
+@media screen and (max-width:600px) {
+
+  .ab-row-2{
+    position: absolute;
+    margin-top: -35%;
+  }
+  .container-fluid .row .main-col-2 .card-row .col{
+    min-width: 100%;
+  }
+  .container-fluid .row .main-col-2 .card-row .col{
+    margin: 2% 0% 2% 0%;
+    padding: 0% !important;
+  }
+  .container-fluid .row .main-col-2 .card-row .row .order-xl-1{
+    order: 2;
+  }
+  .container-fluid .row .main-col-2 .card-row .row .order-xl-2{
+    order: 1;
+    padding: 7% !important;
+  }
+}
+  
 

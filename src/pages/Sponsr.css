@@ -23,7 +23,8 @@ padding: 5%;
 
 @media only screen and (max-width:600px) {
     .a-pa .m-col .col {
-        min-width: 100%;
+        min-width: 50%;
+        padding: 0% !important;
     }
     .a-pa{
         margin-top: -20% !important;

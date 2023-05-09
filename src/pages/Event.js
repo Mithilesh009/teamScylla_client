@@ -2,8 +2,10 @@ import React, { useEffect } from 'react'
 import './Event.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 import Footer from './Footer'
+import Data from '../data.json'
+
 
 export default function Event() {
 
@@ -11,103 +13,71 @@ export default function Event() {
    Aos.init ({duration:2000})
   },[])
 
+  console.log(Data)
+  console.log(Data[0].event[0].banner)
   return (
     <>
     <Navbar/>
 
-    <div className="container-fluid">
-      <div className="row position-relative "><img src="images/event.jpg" className=' img-fluid p-0' alt="" /></div>
-      <div className="row position-absolute w-100 "  >
-        <div className="col main-col-1 mb-3 col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center "><h1>Events</h1></div>
-        <div className="col main-col-2 col-xl-12 col-lg-12 col-md-12 col-sm-12" > 
-          
-          <div className="row isnee-ms p-sm-3 mt-xl-3 mt-sm-0">
-            <div className="col img-col col-xl-5 col-lg-5 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-2 order-sm-2">
-              <img src="images/Picture6.jpg" className='img-fluid'  alt="" />
-            </div>
-            <div className="col text-col col-xl-7 col-lg-7 col-md-12 col-sm-12 order-xl-2 order-lg-2 order-md-1 order-sm-1">
-              <h3 className='fs-2'>ISNEE MotorSports</h3>
-              <p className='fs-5'>
-                Indian Society of New Era Engineering is build to bridging the gap between the Academy and Industry  by offering a series of design compitition and skill development progrms to the engineering students where they can learn and implement the knowledge gained while in the classroom 
-                .ISNEE Motorsports is an organization that provides a platform to all the Engineering and Diploma pursuing candidates to steer their path towards Technical and Managerial expertise.
-              </p>
-              <h5 className='fs-4'>ISNEE's series of design challenge consist of :</h5>
-              <ul style={{listStyleType:"disc"}}>
-                <li>Go Kart Design Challenge</li>
-                <li>Quad Torc</li>
-                <li>Formula Green ISNEE</li>
-                <li>Formula Off Road Mini Bajaj India</li>
-              </ul>
-            </div>
-          </div> 
+    <div className="container-fluid bg-dark">
+        <div className="row img-row  "><img src={Data[0].event[0].banner} className='px-0 mx-0' alt="" /></div>
+        <div className="row ab-row-2 justify-content-center w-100 ">
+            <div className="col main-col-2 col-xl-12 ">
+                <div className="row text-center py-4"><h1>OUR JOURNEY</h1></div>
+                
+            <div className="row card-row text-center p-xl-5 p-lg-5 p-md-4 p-sm-3" >
 
-          <div className="row quad-torc p-5 mt-5">
-            <div className="col col-xl-8 col-lg-8 col-md-12 col-sm-12">
-              <div className=" ">
-                <h3 className=" fs-1"> Quad Torc </h3>
-                <p className=" fs-5">Quad Torc is an off road design challenge for engineering and Diploma undertaking students. Quad is a four wheeled bike, an ATV (All-Terrain Vehicle) that was manufactured to use as a vehicle for transportation in strenuous terrains. The contest involves designing a Quad bike following some quoted rules and regulations. All the manufacturing process must be strictly undertaken by the students without any direct or indirect involvement of professional help.</p>
-                <a href="https://isnee.in/QT/" className="btn btn-outline-warning w-50">Learn More</a>
-              </div>
-            </div>
-            <div className="col col-xl-4 col-lg-4 col-md-12 col-sm-12 p-xl-4 p-sm-0">
-              <img src="images/front2.jpeg" className=" img-fluid mt-lg-2 mt-md-3 mt-sm-3"  alt="..."/>
-            </div>
-          </div>
-
-
-
-          <div className="row card-row p-5">
-
-            <div className="col col-xl-4 col-lg-4 col-md-12 col-sm-12  " >
-              <div  className="card text-start p-4 m-2" >
-                <div className="card-body">
-                  <h3 className="card-title"> Go kart Design Challenge </h3>
-                  <p className="card-text"> Go Kart Design Challenge formerly known as National Go Kart Championship is a competition initiated by ISNEE to offer teams the maximum design flexibility and the freedom to express their creativity and imaginations with very few restrictions on the overall kart design. The challenge to teams is to develop a kart (CV and EV) that can successfully compete in all the events described in the GKDC Rulebook.</p>
-                  <a href="https://isnee.in/gkdc/" className="btn btn-outline-warning w-50">Learn More</a>
-                </div>
-              </div>
+            <div className="row justify-content-center">
+                <div className="col col-xl-5 col-lg-5 col-md-5 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-2"><img src={Data[0].event[0].isnee_img} className='img-fluid' alt="" /></div>
+                <div className="col col-xl-7 col-lg-7 col-md-7 col-sm-12 order-xl-2 order-lg-2 order-md-2 order-sm-1 text-start text-light p-xl-5 p-lg-4 p-md-3 p-sm-4">
+                    <h2 style={{color:"rgb(211, 153, 7)"}} >ISNEE MOTORSPORTS</h2>
+                    <h5 className='my-xl-5 my-lg-4 my-md-3 my-sm-2'>The journey of Team Scylla began way back in 2017 when a group of 25 undergraduates dared to do something different. They came up with an idea of forming a team which will build an All-Terrain Vehicle (ATV) to compete in the prestigious competition of Quad Torc.</h5></div>
             </div>
 
-            <div className="col col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
-              <div  className="card text-start p-4 m-2" >
-                <div className="card-body">
-                  <h3 className="card-title"> Formula Green ISNEE </h3>
-                  <p className="card-text"> "Indian Society of New Era Engineers", an associate member of The Federation of Motor Sports Clubs of India and Affiliate Sanctioning Body of SFI Foundation Inc, USA is an organization for students focusing on their technical and managerial development. It challenges the undergraduate and diploma engineers to research and develop innovative projects, inspires them to imagine, as imagination is more important than knowledge. </p>
-                  <a href="https://isnee.in/fgi/" className="btn btn-outline-warning w-50">Learn More</a>
-                </div>
-              </div>
+                <h1 className='my-5' >Previous Models</h1>
+
+            <div className="col col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+                                <div className="card w-75 mx-auto ">
+                                <div className="card-body  " >
+                                    <div className="card-title"><h2>SHADOW 3.0 (2021-22)</h2></div>
+                                    <img src={Data[0].event[0]['shadow3.0']} className='card-img w-75 border rounded' alt="" />
+                                    <p className="card-text w-75 mx-auto abw2">Team participated in 8th season of ISNEE Quad Torc Competition. This season held from the 27th -  31th july 2022 at SIT pullor, Tamil Nadu. Team clear the technical inspection and qualified  for main event. Team successfully participated in the event and completed all . </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div className="card w-75 mx-auto">
+                                <div className="card-body  " >
+                                    <div className="card-title"><h2>SHADOW 2.0 (2018-19)</h2></div>
+                                    <img src={Data[0].event[0]['shadow2.0']} className='card-img w-75 border rounded' alt="" />
+                                    <p className="card-text w-75 mx-auto abw2">Team participated in sixth season of ISNEE Quad Torc Competition. The sixth season held from the 7th -12th September 2019 at Garage1 Race Track chhachhri teep, Bijnor. Team clear the technical inspection and qualified  for main event. Team successfully participated all event.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                
+            <div className="col col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div className="card  w-75 mx-auto ">
+                                <div className="card-body  " >
+                                    <div className="card-title"><h2>SHADOW 1.0 (2017-18)</h2></div>
+                                    <img src={Data[0].event[0]['shadow1.0']} className='card-img border rounded' alt="" />
+                                    <p className="card-text abw2"> Team participated in  fifth season of ISNEE Quad Torc Competition. The fifth season held from the 26th -30th September 2018 at Garage1 Race Track chhachhri teep, Bijnor. Team clear the technical inspection and qualified  for main event. Team successfully participated all event.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                
             </div>
-
-            <div className="col col-xl-4 col-lg-4 col-md-12 col-sm-12 ">
-              <div  className="card text-start p-4 m-2" >
-                <div className="card-body">
-                  <h3 className="card-title"> Formula Off Road Mini Baja India </h3>
-                  <p className="card-text"> 
-                    Formula Off-road Mini Baja India also known as FOMBI is an off-road racing series for all the all-terrain vehicles falling under 305cc and 1000cc. FOMBI is formulated especially for those who have strong passion and desire to do remarkable in the field of motor sports. The competition consists of two categories-
-                      <br/> &ensp; &ensp; &ensp; 1- FOMBI 305cc
-                      <br/> &ensp; &ensp; &ensp; 2- FOMBI 1000cc
-                  </p>
-                  <a href="https://isnee.in/gkdc/" className="btn btn-outline-warning w-50">Learn More</a>
-                </div>
-              </div>
+            
             </div>
-
-          </div>
-
-          <div className="row">
-          
+        <div className="px-0">
+            <Footer/>
         </div>
-      </div>
-      <div className="px-0">
-      <Footer/>
-      </div>
-      
+
+        
+        </div>
     </div>
-  </div>
-
-    
-    
-
 
 
     </>
